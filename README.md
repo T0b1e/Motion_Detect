@@ -1,5 +1,6 @@
 # Motion_Detect
 This repository is about Arduino with motion senser and diode sensor
+![Motion Detector](./docs/IMG_9766.JPG)
 
 ## Property
 - Motion Sensor 1
