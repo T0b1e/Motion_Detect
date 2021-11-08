@@ -8,13 +8,13 @@
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
-#define OLED_RESET     -1
-#define SCREEN_ADDRESS 0x3C
+#define OLED_RESET     -1  # if oled doesn't has rst pin else change to 4
+#define SCREEN_ADDRESS 0x3C  # OLED adress 0x3C
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-#define SSID        "PWIHOME"
-#define PASSWORD    "TAETARTOB"
-#define LINE_TOKEN  "DehTpof8SToC5V9FrrN2W8JXuaDsPewp1Jsrf2WcOxL" //lH7HXZlAtKHyBLOe4n0XhWZS3gc8kwKxkGgFCdwxSJs
+#define SSID        "WIFI_NAME"
+#define PASSWORD    "PASSWORD"
+#define LINE_TOKEN  "LINE_TOKEN"
 
 int motion = D7;
 int light = D4;
