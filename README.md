@@ -27,3 +27,8 @@ This repository is about Arduino with motion senser and diode sensor
 2. your personal property will be safe.
 3. High security
 
+## Next version
+In a near-future idefinite add
+- Camera (Esp32) for capture an picture
+- Reduce Error rate 10% -> 5%
+- Get new boxa
